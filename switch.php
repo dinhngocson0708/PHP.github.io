@@ -8,15 +8,20 @@
 </head>
 <body>
     <?php 
-        $mong="9";
-        if ($mong=="1"){
+    $mong="9";
+    switch($mong){
+        case "1":
             echo "a";
-        }elseif ($mong=="2"){
+            break;
+        case "2":
             echo "b";
-        }elseif ($mong=="9"){
+            break;
+        case "9":
             echo "PNV";
-        }
-        
+            break;
+
+    }
     ?>
+
 </body>
 </html>
